@@ -1,12 +1,11 @@
 @charset "UTF-8";
-@import url( 'https://fonts.googleapis.com/css2?família =Patrick + Mão&família =Sriracha&exibir = swap ');
-@import url( 'https://fonts.googleapis.com/css2?família =Patrick + Mão&família =Sriracha&exibir = swap ');
-
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 
 :root{
     --font1: Verdana, Geneva, Tahoma, sans-serif;
     --font2: 'Patrick Hand', cursive;
-    --font3: 'Sriracha', cursive;
+    --font3: 'Kalam', cursive;
 
 } 
 
@@ -34,7 +33,7 @@ header>h1 {
     padding: 50px;
     font-variant: small-caps;
     font-family: var(--font2);
-    font-size: 5vw;
+    font-size: 8vw;
 }
 header>p {
     padding-bottom: 50px;
@@ -56,6 +55,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font3);
+    font-weight: bolder;
     font-size: 3vw;
 }
 
